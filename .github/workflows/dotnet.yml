@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build ./src/WebAPI/WebAPI.csproj --no-restore
     - name: Test
-      run: dotnet test ./src/WebAPI.Tests/WebAPI.Tests.csproj --no-build --verbosity normal
+      run: dotnet test ./src/WebAPI/WebAPI.csproj
